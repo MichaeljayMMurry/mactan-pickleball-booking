@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e1c">
+  <meta name="description" content="Reserve a pickleball court or join a session at Mactan Pickleball Club in Cebu.">
+  <link rel="icon" href="/mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/app-192.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/style.css">
+  <title>Mactan Pickleball Club</title>
+  <script type="module" src="/app.js"></script>
+  <script type="module" src="/install.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="/">
+        <img src="/mark.svg" alt="" width="42" height="42">
+        <span><strong id="venue-name">Mactan Pickleball Club</strong><small id="venue-location">Lapu-Lapu City, Cebu</small></span>
+      </a>
+      <nav aria-label="Choose a view" class="role-switch"><a id="player-link" href="/">Player</a><a id="staff-link" href="/staff">Staff</a></nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><p class="shell page-message" role="status">Loading the booking app…</p></main>
+  <footer class="site-footer">
+    <div class="shell footer-inner"><strong id="footer-venue">Mactan Pickleball Club</strong><span id="footer-contact"></span><span>Cebu time · UTC+8</span><button type="button" id="install-app" class="secondary small" hidden>Install app</button></div>
+  </footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+</body>
+</html>
