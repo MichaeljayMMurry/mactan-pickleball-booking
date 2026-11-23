@@ -1,4 +1,4 @@
-name = "mactan-pickleball-booking"
+name = "mactan-pickleball-app"
 main = "worker.mjs"
 compatibility_date = "2026-06-01"
 compatibility_flags = ["nodejs_compat"]
